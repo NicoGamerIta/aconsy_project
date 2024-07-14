@@ -1,0 +1,103 @@
+.main {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #f5f5f5;
+  }
+  
+  .header {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .navLinks {
+    display: flex;
+    gap: 25px;
+  }
+  
+  .navLinks a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    border-right: 2px solid #fff;
+    padding: 0 10px; /* Spazio tra testo e barra */
+    position: relative;
+    height: 90%;
+}
+  
+  .icon {
+    width: 6%;
+  }
+  
+  .connectWallet {
+    background-color: #e67e22 !important;
+    color: #fff !important;
+    border: 2px solid white !important;
+    padding: 10px 20px !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+  }
+  
+  .hero {
+    background: url('/hero-image.jpg') no-repeat center center/cover;
+    color: #000000;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .searchBar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .searchInput {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 2px solid #e67e22;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .searchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #e67e22;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+
+  .dis{
+    font-size: 50px;
+  }
+  
+  .section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .footer {
+    background: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }  

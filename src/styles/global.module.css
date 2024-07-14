@@ -1,0 +1,275 @@
+.main {
+  height: 100vh;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: #1a1a1a;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navLinks {
+  display: flex;
+  gap: 25px;
+}
+
+.navLinks a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  border-right: 2px solid #fff;
+  padding: 0 10px; /* Spazio tra testo e barra */
+  position: relative;
+  height: 90%;
+}
+
+.lang {
+  width: 4%;
+}
+
+.icon {
+  width: 6%;
+}
+
+.connectWallet {
+  background-color: #e67e22 !important;
+  color: #fff !important;
+  border: 2px solid white !important;
+  padding: 10px 20px !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+}
+
+.hero {
+  background: url('/hero-image.jpg') no-repeat center center/cover;
+  color: #000000;
+  padding: 100px 20px;
+  text-align: center;
+  flex: 1;
+}
+
+.searchBar {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.searchInput {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  border: 2px solid #e67e22;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.searchButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #e67e22;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.dis {
+  font-size: 50px;
+  font-weight: bold;
+  color: #001f3f; /* Blu navy */
+  font-family: 'Roboto', sans-serif; /* Font moderno */
+  text-align: center;
+  margin: 20px 0;
+}
+
+.mynft {
+  font-size: 35px;
+  font-weight: bold;
+  color: #001f3f; /* Blu navy */
+  font-family: 'Roboto', sans-serif; /* Font moderno */
+  text-align: center;
+  margin: 20px 0;
+}
+
+.myNfts {
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.saveButton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.savedButton {
+  background-color: #ccc; /* Gray */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: not-allowed;
+  border-radius: 5px;
+}
+
+.nvButton {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: not-allowed;
+  border-radius: 5px;
+}
+
+.mynftGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.mynftCard {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px; /* Fissare la larghezza */
+  height: 120px; /* Fissare l'altezza per evitare sovrapposizioni */
+  text-align: center;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Assicurarsi che gli elementi siano distribuiti correttamente */
+}
+
+.mynftCard:hover {
+  transform: translateY(-10px);
+}
+
+.mynftCard img {
+  max-height: 120px; /* Limita l'altezza dell'immagine per evitare che prenda troppo spazio */
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.mynftCard p {
+  margin: 10px 0; /* Spazio tra il testo e il pulsante */
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.footer {
+  background: #1a1a1a;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: auto;
+}
+
+/* Styles for the My Products section */
+.myProducts {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.dis2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #001f3f; /* Blu navy */
+  font-family: 'Roboto', sans-serif; /* Font moderno */
+  text-align: center;
+  margin: 20px 0;
+}
+
+.myProducts h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.nftGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.nftCard {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  transition: transform 0.2s;
+}
+
+.nftCard:hover {
+  transform: translateY(-10px);
+}
+
+.nftImage {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.nftInfo {
+  text-align: left;
+}
+
+.nftInfo h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.nftInfo p {
+  margin: 5px 0;
+  font-size: 16px;
+}
